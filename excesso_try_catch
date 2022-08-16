@@ -1,0 +1,17 @@
+const soma = função (x, y){
+    if (x > 0 && y > 0) {
+        retornar x + y;
+    }senão {
+        lançar 'Valores inválidos para x ou y'
+    }
+}
+
+tentar {
+    console.log(soma(2, -2));
+    
+} pegar (erro) {
+    console.log('Erro detectado pelo Try Catch');
+    console.log('Retorno do erro: ',erro);
+}
+
+console.log("Mensagem após o erro!");
